@@ -1,0 +1,12 @@
+@angular/cli: 1.0.0
+node: 6.10.2
+os: win32 x64
+
+
+To update Angular CLI to a new version, you must update both the global package and your project's local package.
+
+Global package:
+
+npm uninstall -g @angular/cli
+npm cache clean
+npm install -g @angular/cli@latest
